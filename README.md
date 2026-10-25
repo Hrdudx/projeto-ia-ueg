@@ -46,25 +46,61 @@ saidas/                                  métricas, lista de alertas, regras da 
 docs/                                    relatório do projeto (PDF)
 ```
 
-## Como executar
+## Como instalar e executar na sua máquina (Windows + VS Code)
 
-Com Python 3.10 ou mais recente:
+### 1. Instalar o Python
+1. Acesse https://www.python.org/downloads/ e clique em **Download Python 3.13** (ou mais recente).
+2. Abra o arquivo baixado.
+3. **Importante:** na primeira tela, marque a caixa **"Add python.exe to PATH"**.
+4. Clique em **Install Now** e espere terminar.
 
-```bash
-pip install -r requirements.txt
+### 2. Instalar o VS Code
+1. Acesse https://code.visualstudio.com/ e clique em **Download for Windows**.
+2. Abra o arquivo baixado e instale com as opções padrão.
+
+### 3. Instalar as extensões no VS Code
+1. Abra o VS Code e aperte **Ctrl + Shift + X**.
+2. Pesquise **Python** e instale a extensão da **Microsoft** (selo azul ✔).
+3. Pesquise **Jupyter** e instale a extensão da **Microsoft** (selo azul ✔).
+
+### 4. Baixar o projeto
+1. Baixe o ZIP: https://github.com/Hrdudx/projeto-ia-ueg/archive/refs/heads/main.zip
+2. Na pasta **Downloads**, clique com o botão direito em **projeto-ia-ueg-main.zip** → **Extrair Tudo...**
+3. Escolha a **Área de Trabalho** como destino e clique em **Extrair**.
+
+### 5. Abrir a pasta no VS Code
+1. No VS Code: **Arquivo** → **Abrir Pasta...**
+2. Selecione a pasta **projeto-ia-ueg-main** na Área de Trabalho e clique em **Selecionar pasta**.
+3. Se perguntar se você confia nos autores, clique em **Sim, confio**.
+
+### 6. Abrir o terminal
+No menu de cima: **Terminal** → **Novo Terminal**. Ele abre na parte de baixo da tela.
+
+### 7. Instalar as bibliotecas (só na primeira vez)
+Cole no terminal e aperte **Enter**:
+
+```
+python -m pip install -r requirements.txt
+```
+
+Espere aparecer **Successfully installed**. Se der erro dizendo que `python` não foi encontrado, use `py -m pip install -r requirements.txt`.
+
+### 8. Rodar o protótipo
+Cole no terminal e aperte **Enter**:
+
+```
 python src/prototipo.py
 ```
 
-O script mostra as métricas no terminal e grava os arquivos em `saidas/`.
+O terminal mostra as métricas (MAE, RMSE, R²) e o número de escolas em alerta (58). Também é criada a pasta `saidas/` com os gráficos, a lista de alertas e as regras da árvore.
 
-Para a demonstração passo a passo, abra o notebook (ele já está executado, então os resultados aparecem mesmo sem rodar):
+### 9. Abrir o notebook
+1. Na barra da esquerda, clique na pasta **notebooks** → **prototipo_arvore_regressao.ipynb**.
+2. Ele já está executado: tabelas, árvore e gráficos aparecem sem rodar nada.
+3. Para rodar de novo: clique em **Selecionar Kernel** (canto superior direito) → **Python Environments** → **Python 3.13** → **Executar Tudo**. Se pedir para instalar o **ipykernel**, clique em **Instalar**.
 
-```bash
-cd notebooks
-jupyter notebook prototipo_arvore_regressao.ipynb
-```
-
-Também funciona no Google Colab: envie o notebook e as pastas `src/` e `dados/` mantendo a mesma estrutura.
+### Sem instalar nada
+O notebook pode ser visto direto no navegador: abra este repositório no GitHub → pasta **notebooks** → **prototipo_arvore_regressao.ipynb**.
 
 ## Limitações
 
