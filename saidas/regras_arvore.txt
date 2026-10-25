@@ -1,0 +1,250 @@
+|--- rede_municipal <= 0.5
+|   |--- aprov_ensino_medio <= 98.2
+|   |   |--- oferece_ensino_medio <= 0.5
+|   |   |   |--- escolas_no_municipio <= 23.0
+|   |   |   |   |--- escolas_no_municipio <= 8.5
+|   |   |   |   |   |--- rede_privada <= 0.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 5.5
+|   |   |   |   |   |   |   |--- escolas_no_municipio <= 2.5
+|   |   |   |   |   |   |   |   |--- value: [99.6]
+|   |   |   |   |   |   |   |--- escolas_no_municipio >  2.5
+|   |   |   |   |   |   |   |   |--- value: [99.7]
+|   |   |   |   |   |   |--- escolas_no_municipio >  5.5
+|   |   |   |   |   |   |   |--- value: [99.7]
+|   |   |   |   |   |--- rede_privada >  0.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 4.5
+|   |   |   |   |   |   |   |--- value: [100.0]
+|   |   |   |   |   |   |--- escolas_no_municipio >  4.5
+|   |   |   |   |   |   |   |--- value: [99.7]
+|   |   |   |   |--- escolas_no_municipio >  8.5
+|   |   |   |   |   |--- escolas_no_municipio <= 13.0
+|   |   |   |   |   |   |--- escolas_no_municipio <= 11.5
+|   |   |   |   |   |   |   |--- escolas_no_municipio <= 9.5
+|   |   |   |   |   |   |   |   |--- value: [99.3]
+|   |   |   |   |   |   |   |--- escolas_no_municipio >  9.5
+|   |   |   |   |   |   |   |   |--- value: [99.8]
+|   |   |   |   |   |   |--- escolas_no_municipio >  11.5
+|   |   |   |   |   |   |   |--- value: [98.8]
+|   |   |   |   |   |--- escolas_no_municipio >  13.0
+|   |   |   |   |   |   |--- aprov_anos_iniciais <= 99.1
+|   |   |   |   |   |   |   |--- value: [99.9]
+|   |   |   |   |   |   |--- aprov_anos_iniciais >  99.1
+|   |   |   |   |   |   |   |--- value: [99.0]
+|   |   |   |--- escolas_no_municipio >  23.0
+|   |   |   |   |--- escolas_no_municipio <= 47.5
+|   |   |   |   |   |--- escolas_no_municipio <= 36.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 30.0
+|   |   |   |   |   |   |   |--- value: [98.1]
+|   |   |   |   |   |   |--- escolas_no_municipio >  30.0
+|   |   |   |   |   |   |   |--- value: [99.3]
+|   |   |   |   |   |--- escolas_no_municipio >  36.5
+|   |   |   |   |   |   |--- value: [95.2]
+|   |   |   |   |--- escolas_no_municipio >  47.5
+|   |   |   |   |   |--- aprov_anos_iniciais <= 99.0
+|   |   |   |   |   |   |--- aprov_anos_iniciais <= 46.3
+|   |   |   |   |   |   |   |--- rede_privada <= 0.5
+|   |   |   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |   |   |   |   |--- rede_privada >  0.5
+|   |   |   |   |   |   |   |   |--- value: [98.8]
+|   |   |   |   |   |   |--- aprov_anos_iniciais >  46.3
+|   |   |   |   |   |   |   |--- value: [96.2]
+|   |   |   |   |   |--- aprov_anos_iniciais >  99.0
+|   |   |   |   |   |   |--- escolas_no_municipio <= 194.5
+|   |   |   |   |   |   |   |--- value: [99.1]
+|   |   |   |   |   |   |--- escolas_no_municipio >  194.5
+|   |   |   |   |   |   |   |--- value: [99.4]
+|   |   |--- oferece_ensino_medio >  0.5
+|   |   |   |--- aprov_ensino_medio <= 92.9
+|   |   |   |   |--- aprov_anos_iniciais <= 98.6
+|   |   |   |   |   |--- aprov_ensino_medio <= 90.2
+|   |   |   |   |   |   |--- value: [93.2]
+|   |   |   |   |   |--- aprov_ensino_medio >  90.2
+|   |   |   |   |   |   |--- value: [94.9]
+|   |   |   |   |--- aprov_anos_iniciais >  98.6
+|   |   |   |   |   |--- value: [97.7]
+|   |   |   |--- aprov_ensino_medio >  92.9
+|   |   |   |   |--- aprov_ensino_medio <= 94.5
+|   |   |   |   |   |--- aprov_ensino_medio <= 93.4
+|   |   |   |   |   |   |--- value: [98.1]
+|   |   |   |   |   |--- aprov_ensino_medio >  93.4
+|   |   |   |   |   |   |--- value: [96.7]
+|   |   |   |   |--- aprov_ensino_medio >  94.5
+|   |   |   |   |   |--- aprov_ensino_medio <= 97.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 26.5
+|   |   |   |   |   |   |   |--- aprov_ensino_medio <= 95.0
+|   |   |   |   |   |   |   |   |--- value: [99.3]
+|   |   |   |   |   |   |   |--- aprov_ensino_medio >  95.0
+|   |   |   |   |   |   |   |   |--- value: [98.6]
+|   |   |   |   |   |   |--- escolas_no_municipio >  26.5
+|   |   |   |   |   |   |   |--- rede_privada <= 0.5
+|   |   |   |   |   |   |   |   |--- value: [97.9]
+|   |   |   |   |   |   |   |--- rede_privada >  0.5
+|   |   |   |   |   |   |   |   |--- value: [98.8]
+|   |   |   |   |   |--- aprov_ensino_medio >  97.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 2.5
+|   |   |   |   |   |   |   |--- value: [98.5]
+|   |   |   |   |   |   |--- escolas_no_municipio >  2.5
+|   |   |   |   |   |   |   |--- aprov_ensino_medio <= 98.0
+|   |   |   |   |   |   |   |   |--- value: [99.3]
+|   |   |   |   |   |   |   |--- aprov_ensino_medio >  98.0
+|   |   |   |   |   |   |   |   |--- value: [99.0]
+|   |--- aprov_ensino_medio >  98.2
+|   |   |--- rede_privada <= 0.5
+|   |   |   |--- aprov_ensino_medio <= 99.5
+|   |   |   |   |--- escolas_no_municipio <= 36.5
+|   |   |   |   |   |--- escolas_no_municipio <= 2.5
+|   |   |   |   |   |   |--- aprov_ensino_medio <= 98.9
+|   |   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |   |   |   |--- aprov_ensino_medio >  98.9
+|   |   |   |   |   |   |   |--- value: [99.1]
+|   |   |   |   |   |--- escolas_no_municipio >  2.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 17.0
+|   |   |   |   |   |   |   |--- aprov_ensino_medio <= 98.9
+|   |   |   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |   |   |   |   |--- aprov_ensino_medio >  98.9
+|   |   |   |   |   |   |   |   |--- value: [99.8]
+|   |   |   |   |   |   |--- escolas_no_municipio >  17.0
+|   |   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |   |--- escolas_no_municipio >  36.5
+|   |   |   |   |   |--- escolas_no_municipio <= 194.5
+|   |   |   |   |   |   |--- aprov_ensino_medio <= 99.0
+|   |   |   |   |   |   |   |--- value: [98.7]
+|   |   |   |   |   |   |--- aprov_ensino_medio >  99.0
+|   |   |   |   |   |   |   |--- value: [99.3]
+|   |   |   |   |   |--- escolas_no_municipio >  194.5
+|   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |--- aprov_ensino_medio >  99.5
+|   |   |   |   |--- escolas_no_municipio <= 2.5
+|   |   |   |   |   |--- escolas_no_municipio <= 1.5
+|   |   |   |   |   |   |--- value: [99.7]
+|   |   |   |   |   |--- escolas_no_municipio >  1.5
+|   |   |   |   |   |   |--- value: [99.7]
+|   |   |   |   |--- escolas_no_municipio >  2.5
+|   |   |   |   |   |--- aprov_ensino_medio <= 99.9
+|   |   |   |   |   |   |--- escolas_no_municipio <= 85.5
+|   |   |   |   |   |   |   |--- escolas_no_municipio <= 32.5
+|   |   |   |   |   |   |   |   |--- value: [99.8]
+|   |   |   |   |   |   |   |--- escolas_no_municipio >  32.5
+|   |   |   |   |   |   |   |   |--- value: [99.6]
+|   |   |   |   |   |   |--- escolas_no_municipio >  85.5
+|   |   |   |   |   |   |   |--- value: [99.8]
+|   |   |   |   |   |--- aprov_ensino_medio >  99.9
+|   |   |   |   |   |   |--- escolas_no_municipio <= 66.5
+|   |   |   |   |   |   |   |--- escolas_no_municipio <= 9.5
+|   |   |   |   |   |   |   |   |--- value: [99.9]
+|   |   |   |   |   |   |   |--- escolas_no_municipio >  9.5
+|   |   |   |   |   |   |   |   |--- value: [99.9]
+|   |   |   |   |   |   |--- escolas_no_municipio >  66.5
+|   |   |   |   |   |   |   |--- escolas_no_municipio <= 194.5
+|   |   |   |   |   |   |   |   |--- value: [99.8]
+|   |   |   |   |   |   |   |--- escolas_no_municipio >  194.5
+|   |   |   |   |   |   |   |   |--- value: [99.9]
+|   |   |--- rede_privada >  0.5
+|   |   |   |--- escolas_no_municipio <= 14.5
+|   |   |   |   |--- escolas_no_municipio <= 5.5
+|   |   |   |   |   |--- value: [98.8]
+|   |   |   |   |--- escolas_no_municipio >  5.5
+|   |   |   |   |   |--- escolas_no_municipio <= 8.5
+|   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |   |   |--- escolas_no_municipio >  8.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 10.5
+|   |   |   |   |   |   |   |--- value: [99.8]
+|   |   |   |   |   |   |--- escolas_no_municipio >  10.5
+|   |   |   |   |   |   |   |--- value: [99.6]
+|   |   |   |--- escolas_no_municipio >  14.5
+|   |   |   |   |--- escolas_no_municipio <= 19.5
+|   |   |   |   |   |--- value: [98.3]
+|   |   |   |   |--- escolas_no_municipio >  19.5
+|   |   |   |   |   |--- aprov_anos_iniciais <= 98.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 194.5
+|   |   |   |   |   |   |   |--- value: [98.5]
+|   |   |   |   |   |   |--- escolas_no_municipio >  194.5
+|   |   |   |   |   |   |   |--- value: [99.0]
+|   |   |   |   |   |--- aprov_anos_iniciais >  98.5
+|   |   |   |   |   |   |--- aprov_ensino_medio <= 98.9
+|   |   |   |   |   |   |   |--- value: [98.7]
+|   |   |   |   |   |   |--- aprov_ensino_medio >  98.9
+|   |   |   |   |   |   |   |--- escolas_no_municipio <= 66.5
+|   |   |   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |   |   |   |   |--- escolas_no_municipio >  66.5
+|   |   |   |   |   |   |   |   |--- value: [99.2]
+|--- rede_municipal >  0.5
+|   |--- aprov_anos_iniciais <= 98.9
+|   |   |--- escolas_no_municipio <= 14.5
+|   |   |   |--- escolas_no_municipio <= 3.5
+|   |   |   |   |--- value: [98.8]
+|   |   |   |--- escolas_no_municipio >  3.5
+|   |   |   |   |--- oferece_anos_iniciais <= 0.5
+|   |   |   |   |   |--- value: [97.9]
+|   |   |   |   |--- oferece_anos_iniciais >  0.5
+|   |   |   |   |   |--- aprov_anos_iniciais <= 96.9
+|   |   |   |   |   |   |--- value: [94.2]
+|   |   |   |   |   |--- aprov_anos_iniciais >  96.9
+|   |   |   |   |   |   |--- value: [95.4]
+|   |   |--- escolas_no_municipio >  14.5
+|   |   |   |--- escolas_no_municipio <= 47.5
+|   |   |   |   |--- aprov_anos_iniciais <= 95.2
+|   |   |   |   |   |--- aprov_anos_iniciais <= 85.0
+|   |   |   |   |   |   |--- value: [93.5]
+|   |   |   |   |   |--- aprov_anos_iniciais >  85.0
+|   |   |   |   |   |   |--- aprov_anos_iniciais <= 91.4
+|   |   |   |   |   |   |   |--- value: [81.2]
+|   |   |   |   |   |   |--- aprov_anos_iniciais >  91.4
+|   |   |   |   |   |   |   |--- aprov_anos_iniciais <= 94.2
+|   |   |   |   |   |   |   |   |--- value: [86.9]
+|   |   |   |   |   |   |   |--- aprov_anos_iniciais >  94.2
+|   |   |   |   |   |   |   |   |--- value: [89.4]
+|   |   |   |   |--- aprov_anos_iniciais >  95.2
+|   |   |   |   |   |--- aprov_anos_iniciais <= 98.0
+|   |   |   |   |   |   |--- aprov_anos_iniciais <= 97.0
+|   |   |   |   |   |   |   |--- value: [93.9]
+|   |   |   |   |   |   |--- aprov_anos_iniciais >  97.0
+|   |   |   |   |   |   |   |--- value: [94.3]
+|   |   |   |   |   |--- aprov_anos_iniciais >  98.0
+|   |   |   |   |   |   |--- value: [90.6]
+|   |   |   |--- escolas_no_municipio >  47.5
+|   |   |   |   |--- escolas_no_municipio <= 85.5
+|   |   |   |   |   |--- aprov_anos_iniciais <= 96.5
+|   |   |   |   |   |   |--- value: [96.9]
+|   |   |   |   |   |--- aprov_anos_iniciais >  96.5
+|   |   |   |   |   |   |--- value: [97.3]
+|   |   |   |   |--- escolas_no_municipio >  85.5
+|   |   |   |   |   |--- value: [95.5]
+|   |--- aprov_anos_iniciais >  98.9
+|   |   |--- aprov_anos_iniciais <= 99.6
+|   |   |   |--- escolas_no_municipio <= 65.0
+|   |   |   |   |--- escolas_no_municipio <= 23.0
+|   |   |   |   |   |--- value: [97.5]
+|   |   |   |   |--- escolas_no_municipio >  23.0
+|   |   |   |   |   |--- value: [96.1]
+|   |   |   |--- escolas_no_municipio >  65.0
+|   |   |   |   |--- aprov_anos_iniciais <= 99.4
+|   |   |   |   |   |--- value: [98.2]
+|   |   |   |   |--- aprov_anos_iniciais >  99.4
+|   |   |   |   |   |--- value: [99.1]
+|   |   |--- aprov_anos_iniciais >  99.6
+|   |   |   |--- escolas_no_municipio <= 19.5
+|   |   |   |   |--- escolas_no_municipio <= 13.0
+|   |   |   |   |   |--- escolas_no_municipio <= 2.5
+|   |   |   |   |   |   |--- value: [99.7]
+|   |   |   |   |   |--- escolas_no_municipio >  2.5
+|   |   |   |   |   |   |--- escolas_no_municipio <= 3.5
+|   |   |   |   |   |   |   |--- value: [98.4]
+|   |   |   |   |   |   |--- escolas_no_municipio >  3.5
+|   |   |   |   |   |   |   |--- escolas_no_municipio <= 8.5
+|   |   |   |   |   |   |   |   |--- value: [99.5]
+|   |   |   |   |   |   |   |--- escolas_no_municipio >  8.5
+|   |   |   |   |   |   |   |   |--- value: [99.1]
+|   |   |   |   |--- escolas_no_municipio >  13.0
+|   |   |   |   |   |--- value: [96.8]
+|   |   |   |--- escolas_no_municipio >  19.5
+|   |   |   |   |--- escolas_no_municipio <= 23.0
+|   |   |   |   |   |--- value: [99.9]
+|   |   |   |   |--- escolas_no_municipio >  23.0
+|   |   |   |   |   |--- escolas_no_municipio <= 194.5
+|   |   |   |   |   |   |--- rural <= 0.5
+|   |   |   |   |   |   |   |--- value: [99.0]
+|   |   |   |   |   |   |--- rural >  0.5
+|   |   |   |   |   |   |   |--- value: [99.6]
+|   |   |   |   |   |--- escolas_no_municipio >  194.5
+|   |   |   |   |   |   |--- value: [99.5]
